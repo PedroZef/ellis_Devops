@@ -59,12 +59,12 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 ## Autenticação no Google Cloud
 
 ```sh
-   gcloud auth login
-	gcloud config project ID_PROJECT
+   	gcloud auth login
+	gcloud config project ID_PROJECT 
 	gcloud run deploy --port=8000
 
 ```
-
+##OBSERVAÇÃO: Substituir o ID_PROJECT pelo número id do Projeto Ciado no Google Cloud
 ---
 
 ## Estrutura do Projeto
